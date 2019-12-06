@@ -25,7 +25,9 @@ class Human:
 
     @property
     def email(self):
-        return self.email
+        return "email@email.com"
 
+    
 
-bruno = Human('Kofi')
+bruno = Human('Kofi') 
+print(bruno.email)
