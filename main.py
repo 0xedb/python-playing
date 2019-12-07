@@ -27,7 +27,15 @@ class Human:
     def email(self):
         return "email@email.com"
 
-    
+a = 1000
+
+def changer():
+  global a 
+  a = 1
+  print('in changer', a)
+
+changer()
+print('outside', a)
 
 bruno = Human('Kofi') 
 print(bruno.email)
